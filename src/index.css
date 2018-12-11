@@ -3123,7 +3123,7 @@ table {
 }
 
 .leading-loose {
-  line-height: 1.75;
+  line-height: 1.65;
 }
 
 .m-0 {
@@ -8811,7 +8811,7 @@ table {
   }
 
   .sm\:leading-loose {
-    line-height: 1.75;
+    line-height: 1.65;
   }
 
   .sm\:m-0 {
@@ -14450,7 +14450,7 @@ table {
   }
 
   .md\:leading-loose {
-    line-height: 1.75;
+    line-height: 1.65;
   }
 
   .md\:m-0 {
@@ -20089,7 +20089,7 @@ table {
   }
 
   .lg\:leading-loose {
-    line-height: 1.75;
+    line-height: 1.65;
   }
 
   .lg\:m-0 {
@@ -25728,7 +25728,7 @@ table {
   }
 
   .xl\:leading-loose {
-    line-height: 1.75;
+    line-height: 1.65;
   }
 
   .xl\:m-0 {

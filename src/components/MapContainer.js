@@ -3,6 +3,7 @@ import MapData from './MapData.js'
 import BaseMap from './BaseMap.js'
 import InfoPanel from './InfoPanel.js'
 import DetailView from './DetailView.js'
+import TopBar from './TopBar.js'
 
 class MapContainer extends React.Component {
   constructor (props) {
@@ -20,6 +21,7 @@ class MapContainer extends React.Component {
       bounds: null,
       center: {lng: -74.065604, lat: 4.652280},
       selectedPoint: null,
+      query: null,
       animate: false,
       searchResults: []
     //  styleURL: this._mapOptions[0].data,
@@ -29,6 +31,7 @@ class MapContainer extends React.Component {
     this.getNextTexto = this.getNextTexto.bind(this)
     this.getPreviousTexto = this.getPreviousTexto.bind(this)
     this.searchMapData = this.searchMapData.bind(this)
+    this.clearSearch = this.clearSearch.bind(this)
   }
 
   updateSelectedPoint(point, animate) {
@@ -36,10 +39,13 @@ class MapContainer extends React.Component {
     this.setState({selectedPoint: point, animate: animate})
   }
 
+  clearSearch () {
+    this.setState({ searchResults: [], query: ''})
+  }
   searchMapData(query) {
     var results = this.mapData.searchData(query)
     console.log('results', query, results)
-    this.setState({ searchResults: results})
+    this.setState({ searchResults: results, query: query})
   }
 
   getNextTexto(point) {
@@ -89,6 +95,7 @@ class MapContainer extends React.Component {
         getPreviousTexto = {this.getPreviousTexto}
         searchMapData = {this.searchMapData}
       />
+      <TopBar query={this.state.query} searchMapData={this.searchMapData} clearSearch={this.clearSearch} />
     </div>
   }
 }

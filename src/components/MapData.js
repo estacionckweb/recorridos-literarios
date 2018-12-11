@@ -158,10 +158,11 @@ class MapData  {
   // }
 
   searchData(query) {
+    console.log('query', query)
     return this.lunr.search(query)
   }
 
-  
+
 
   loadData() {
     let header = 'Bearer ' + config.airtable.key

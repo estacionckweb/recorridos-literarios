@@ -25,6 +25,14 @@ class BaseMap extends Component {
         zoom: 14
     })
 
+    // Add geolocate control to the map.
+  this.map.addControl(new mapboxgl.GeolocateControl({
+      positionOptions: {
+          enableHighAccuracy: true
+      },
+      trackUserLocation: true
+  }));
+
   // <div id='map'
   //   style={{width: '100%', height: '100%', position: 'fixed', top: '0px', bottom: '0px', left: '0px'}}
   //   ref={element => this.rootEl = element}
