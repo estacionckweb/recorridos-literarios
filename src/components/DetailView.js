@@ -21,7 +21,7 @@ class DetailView extends React.Component {
         textoEl =   <div className="h-1/2 p-4 text-black leading-normal pb-3 font-sans overflow-auto" style={{ flex:2 }}>
           <span> {'"' + startTexto} </span>
           <span className="text-white cursor-pointer hover:text-black" onClick={()=> { this.props.searchMapData(point.punto) }}> {linkTexto} </span>
-          <span> {endTexto} </span>
+          <span> {endTexto + '"'} </span>
         </div>
       } else {
         textoEl = <div className="h-1/2 p-4 text-black leading-normal pb-3 font-sans overflow-auto" style={{ flex:2 }}>
