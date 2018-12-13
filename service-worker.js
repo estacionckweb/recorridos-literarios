@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/recorridos-literarios/precache-manifest.e75330210065c8b17f9383332e5fce0d.js"
+  "/recorridos-literarios/precache-manifest.403c5e8891288fab8982a92f2c540c52.js"
 );
 
 workbox.clientsClaim();
