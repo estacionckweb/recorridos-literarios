@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "d2a55d331bdd1a7ea97a8a1fbb3c569c",
-    "url": "/recorridos-literarios/static/media/Material-Design-Iconic-Font.d2a55d33.woff"
+    "revision": "a4d31128b633bc0b1cc1f18a34fb3851",
+    "url": "/recorridos-literarios/static/media/Material-Design-Iconic-Font.a4d31128.woff2"
   },
   {
-    "revision": "fc47254d1593d8c85070",
+    "revision": "46d7e1e3b2877c247e1a",
     "url": "/recorridos-literarios/static/css/main.b526b3d4.chunk.css"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/recorridos-literarios/static/media/logo.5d5d9eef.svg"
+    "revision": "de1d242d8acb26ec43c0d071fe78e72d",
+    "url": "/recorridos-literarios/static/media/fa-solid-900.de1d242d.svg"
   },
   {
-    "revision": "0b54d288204a380bae0e",
-    "url": "/recorridos-literarios/static/js/1.0b54d288.chunk.js"
+    "revision": "3d151e930c4c51cf3d73",
+    "url": "/recorridos-literarios/static/js/1.3d151e93.chunk.js"
   },
   {
     "revision": "daeaedcabe4a0df87774",
@@ -48,16 +48,12 @@ self.__precacheManifest = [
     "url": "/recorridos-literarios/static/media/fa-regular-400.dad90637.woff"
   },
   {
-    "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
-    "url": "/recorridos-literarios/static/media/fa-regular-400.e6c93cb4.eot"
-  },
-  {
     "revision": "8d220c793e2612bd131ed8522c54669f",
     "url": "/recorridos-literarios/static/media/fa-regular-400.8d220c79.ttf"
   },
   {
-    "revision": "a4d31128b633bc0b1cc1f18a34fb3851",
-    "url": "/recorridos-literarios/static/media/Material-Design-Iconic-Font.a4d31128.woff2"
+    "revision": "e6c93cb47e716b579264a5fdfbf7e84d",
+    "url": "/recorridos-literarios/static/media/fa-regular-400.e6c93cb4.eot"
   },
   {
     "revision": "6814d0e8136d34e313623eb7129d538e",
@@ -68,8 +64,8 @@ self.__precacheManifest = [
     "url": "/recorridos-literarios/static/media/fa-solid-900.b75b4bfe.woff2"
   },
   {
-    "revision": "fc47254d1593d8c85070",
-    "url": "/recorridos-literarios/static/js/main.fc47254d.chunk.js"
+    "revision": "46d7e1e3b2877c247e1a",
+    "url": "/recorridos-literarios/static/js/main.46d7e1e3.chunk.js"
   },
   {
     "revision": "2c159d0d05473040b53ec79df8797d32",
@@ -84,6 +80,10 @@ self.__precacheManifest = [
     "url": "/recorridos-literarios/static/media/fa-solid-900.2d0415fa.woff"
   },
   {
+    "revision": "d2a55d331bdd1a7ea97a8a1fbb3c569c",
+    "url": "/recorridos-literarios/static/media/Material-Design-Iconic-Font.d2a55d33.woff"
+  },
+  {
     "revision": "e8019d507e8cb51d169ab4f94a0cda12",
     "url": "/recorridos-literarios/static/media/fa-brands-400.e8019d50.eot"
   },
@@ -92,24 +92,24 @@ self.__precacheManifest = [
     "url": "/recorridos-literarios/static/media/fa-brands-400.fdf44bc4.ttf"
   },
   {
-    "revision": "b351bd62abcd96e924d9f44a3da169a7",
-    "url": "/recorridos-literarios/static/media/Material-Design-Iconic-Font.b351bd62.ttf"
-  },
-  {
     "revision": "19e65b89cee273a249fba4c09b951b74",
     "url": "/recorridos-literarios/static/media/ionicons.19e65b89.eot"
+  },
+  {
+    "revision": "b351bd62abcd96e924d9f44a3da169a7",
+    "url": "/recorridos-literarios/static/media/Material-Design-Iconic-Font.b351bd62.ttf"
   },
   {
     "revision": "ba2a91dc95e6cfdc4b2a186a7ba83e29",
     "url": "/recorridos-literarios/static/media/fa-regular-400.ba2a91dc.svg"
   },
   {
-    "revision": "ea363ed422723673917901680be9b37c",
-    "url": "/recorridos-literarios/static/media/fa-solid-900.ea363ed4.eot"
-  },
-  {
     "revision": "132e9759d93e4eefd7cdde0d7a322991",
     "url": "/recorridos-literarios/static/media/fa-solid-900.132e9759.ttf"
+  },
+  {
+    "revision": "ea363ed422723673917901680be9b37c",
+    "url": "/recorridos-literarios/static/media/fa-solid-900.ea363ed4.eot"
   },
   {
     "revision": "dd4781d1acc57ba4c4808d1b44301201",
@@ -124,15 +124,11 @@ self.__precacheManifest = [
     "url": "/recorridos-literarios/static/media/fa-brands-400.83e6c29f.svg"
   },
   {
-    "revision": "de1d242d8acb26ec43c0d071fe78e72d",
-    "url": "/recorridos-literarios/static/media/fa-solid-900.de1d242d.svg"
-  },
-  {
-    "revision": "0b54d288204a380bae0e",
+    "revision": "3d151e930c4c51cf3d73",
     "url": "/recorridos-literarios/static/css/1.b23548de.chunk.css"
   },
   {
-    "revision": "102a37dc7babe79d56100439896edb69",
+    "revision": "0a7ea0318aad13d7acc81b89d95191b1",
     "url": "/recorridos-literarios/index.html"
   }
 ];
