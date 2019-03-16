@@ -45,14 +45,29 @@ class MapData  {
           var punto = this.Puntos.byId[puntoId]
           if (punto.fields.Longitude && punto.fields.Latitude) {
           //  punto.fields.Longitude
-            let libro = this.Libros.byId[texto.fields.Libro[0]]
-            let autor = this.Autores.byId[libro.fields.Autor[0]]
-          //  let punto = this.Puntos.byId[texto.fields.Puntos[0]]
-            //var textoObj = Object.assign({}, texto, {libro: libro, autor: autor, punto: punto})
+          var libro, autor
+           if(texto.fields.Libro){
+             libro = this.Libros.byId[texto.fields.Libro[0]]
+             autor = this.Autores.byId[libro.fields.Autor[0]]
 
+           } else {
+             libro = {
+               fields: {
+                 Nombre: ''
+               }
+             }
+             autor = {
+               fields: {
+                 Nombre: ''
+               }
+             }
+           }
+
+           texto.fields.libro = libro.fields.Nombre
+           texto.fields.autor = autor.fields.Nombre
+      
             // add all parameters to be indexed (meaning they will be searchable) to "fields" object
-            texto.fields.libro = libro.fields.Nombre
-            texto.fields.autor = autor.fields.Nombre
+
             texto.fields.punto = punto.fields.Nombre
 
             var textoObj = Object.assign({}, {
