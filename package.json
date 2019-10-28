@@ -31,7 +31,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://estacionckweb.github.io/recorridos-literarios",
   "eslintConfig": {
     "extends": "react-app"
   },

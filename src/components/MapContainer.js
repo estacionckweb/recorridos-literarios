@@ -4,6 +4,7 @@ import BaseMap from './BaseMap.js'
 import InfoPanel from './InfoPanel.js'
 import DetailView from './DetailView.js'
 import TopBar from './TopBar.js'
+import config from './../config.json'
 
 class MapContainer extends React.Component {
   constructor (props) {
@@ -19,7 +20,7 @@ class MapContainer extends React.Component {
       // selected: null,
       loaded: false,
       bounds: null,
-      center: {lng: -74.065604, lat: 4.652280},
+      center: {lng: config.centroMapa.lon, lat: config.centroMapa.lat},
       selectedPoint: null,
       query: null,
       animate: false,

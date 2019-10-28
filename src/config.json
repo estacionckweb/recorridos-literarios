@@ -8,5 +8,9 @@
   "airtable": {
     "url":  "https://api.airtable.com/v0/appe2QPJNGquOBgw0/",
     "key": "keyRHmFMa5W4S4TUJ"
+  },
+  "centroMapa" : {
+    "lat": 4.652280,
+    "lon": -74.065604
   }
 }

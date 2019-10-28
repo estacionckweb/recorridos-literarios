@@ -4,7 +4,8 @@ import lunr from 'lunr'
 require("lunr-languages/lunr.stemmer.support")(lunr)
 require("lunr-languages/lunr.es")(lunr)
 
-const baseUrl ='https://api.airtable.com/v0/appe2QPJNGquOBgw0/'
+const baseUrl = config.airtable.url;
+// const baseUrl ='https://api.airtable.com/v0/appe2QPJNGquOBgw0/'
 const fetchUrls = ['Textos', 'Puntos', 'Autores', 'Libros']
 
 // @todo how to make the fields more flexible/customizable?
